@@ -113,7 +113,7 @@ where:
 * `selection_mode` --> One of the selection modes to select the top genes sites (numGenes, percentile, cutoff).
 * `gene_parameter` --> Parameter to specifically choose the number of genes.
 * `age_prediction` --> choice between "age_steps" vs. "list" to make the age steps for prediction.
-* `age_list' --> if *age_prediction* is set to *list*, use this parameter to give a specific list to create the age steps for age prediction(should be same as reference model). <br>
+* `age_list` --> if *age_prediction* is set to *list*, use this parameter to give a specific list to create the age steps for age prediction(should be same as reference model). <br>
 * `min_age` --> if *age_prediction* is set to *age_steps*, set the minimum age for which to build a probability profile.
 * `max_age` --> if *age_prediction* is set to *age_steps*, set the maximum age for which to build a probability profile.
 * `age_step` --> The step value for computing probability profiles.
