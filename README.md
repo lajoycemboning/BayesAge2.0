@@ -53,7 +53,7 @@ To visualize epiage or tAge predictions, installation of 'seaborn', 'matplotlib'
 Predicted transcriptomic age are conveniently written to .csv files and epigenetic age output dataframes are conveniently written .tsv files, and can therefore also be analyzed in any other environment (R, Excel, etc...).
 
 ## Speed, Memory Use and Parallelization <br>
-The five main functions (*epigenome_reference*, *process_cgmap_file*, *bdAge, *transcriptome_reference*, *pdAge*) are fully functional running on a single core (the default is n_cores = 1). Since this package is a direct extension of scAge, they should experience linear speedup with multiprocessing. Increasing the number of cores (n_cores) will improve the speed and efficiency of the pipeline. While developing this package, I used a System76 laptop.
+The five main functions (*epigenome_reference*, *process_cgmap_file*, *bdAge*, *transcriptome_reference*, *pdAge*) are fully functional running on a single core (the default is n_cores = 1). Since this package is a direct extension of scAge, they should experience linear speedup with multiprocessing. Increasing the number of cores (n_cores) will improve the speed and efficiency of the pipeline. While developing this package, I used a System76 laptop.
 
 process_cgmap_file and bdAge could eat up a lot of RAM depending on how many samples are being processed simulatenously, so one can monitor the memory allocation when running the algorithm.
 
