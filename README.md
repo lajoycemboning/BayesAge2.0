@@ -121,9 +121,9 @@ where:
 * `chunk_size` --> The number of elements to feed to each worker during parallel processing.
 
 ## Data <br>
-The raw counts and metadata (*MACA_modified_rawcounts.csv*, *MACA_modified_metadata.csv*) used in this study are included in the folder for example purposes and for reproducibility.
+The raw counts and metadata (*MACA_modified_rawcounts.csv.gz*, *MACA_modified_metadata.csv*) used in this study are included in the folder for example purposes and for reproducibility.
 
 ## Troubleshooting <br>
 
-If you encounter any issues when trying to run BayesAge, or if you have suggestions, please feel free to contact me by email:lajoycemboningatucla.edu.
+If you encounter any issues when trying to run BayesAge, or if you have suggestions, please feel free to contact me by email: lajoycemboningatucla.edu.
 
