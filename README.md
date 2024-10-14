@@ -17,8 +17,8 @@ and can be executed with the following functions: <br>
     2) pdAge <br>
     
 The BayesAge pipeline consists of three steps for epiage predictions: <br>
-    1) Computing the nonlinear models for each CpG within a DNAm matrix using LOWESS fit. 
-    2) Loading in and processing sample methylation cgmap files.  
+    1) Computing the nonlinear models for each CpG within a DNAm matrix using LOWESS fit. <br>
+    2) Loading in and processing sample methylation cgmap files.  <br>
     3) Predicting age of samples given number of cytosines and coverage from cgmap files.
 
 and can be executed with the following functions: <br>
