@@ -3,8 +3,8 @@
 ## BayesAge v2.0 (10/14/2024)
 
 BayesAge 2.0 is a framework for epigenetic (epiage) and transcriptomic age (tAge) predictions. This is an extension to our previous BayesAge model that only focused on epiage predictions from Mboning et al published in Frontiers in Bioinformatics. 
-BayesAge utilizes maximum likelihood estimation (MLE) to infer ages, models count data using binomial distributions for bulk bisulfite data and poisson distribution for gene expression data, and uses LOWESS smoothing to capture the non-linear dynamics between methylation/gene expression level and age.
-For more information on the alogorithm, please consult Mboning et al., "BayesAge: A Maximum likelihood estimation algorithm to predict epigenetic age", "BayesAge 2.0: A Maximum Likelihood Algorithm to Predict Transcriptomic Age". <br>
+BayesAge utilizes maximum likelihood estimation (MLE) to infer ages, models count data using binomial distributions for bulk bisulfite data and poisson distribution for gene expression data, and uses LOWESS smoothing to capture the non-linear dynamics between methylation/gene expression level and age.<br>
+For more information on the algorithm, please consult Mboning et al., "BayesAge: A Maximum likelihood estimation algorithm to predict epigenetic age", "BayesAge 2.0: A Maximum Likelihood Algorithm to Predict Transcriptomic Age". <br>
 
 If you use this software, please cite our works along with Trapp's work (scAge).
 
