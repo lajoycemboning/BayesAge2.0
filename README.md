@@ -68,7 +68,10 @@ Below is a brief overview of the parameters that each functions require to run p
 In order to train the reference matrix for the BayesAge pipeline, you can run the function:
 
 ```
-transcriptome_reference(training_matrix="/home/lajoyce/Documents/BayesAge2.0/brain/loocv_sample/brain_sample_1.csv",                            reference_name="brain_reference_1.csv",                            output_path="/home/lajoyce/Documents/BayesAge2.0/brain/reference/",                     age_prediction="list",
+transcriptome_reference(training_matrix="/home/lajoyce/Documents/BayesAge2.0/brain/loocv_sample/brain_sample_1.csv",
+reference_name="brain_reference_1.csv",
+output_path="/home/lajoyce/Documents/BayesAge2.0/brain/reference/",
+age_prediction="list",
 age_list=[1, 3, 6, 9, 12, 15, 18, 21, 24, 27],
 min_age=1,
 max_age=24,
